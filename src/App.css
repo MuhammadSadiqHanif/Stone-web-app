@@ -1,0 +1,282 @@
+#root{
+font-family: cursive;
+background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);    height: 100vh;
+    overflow: scroll;
+}
+body{
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+}
+#table::-webkit-scrollbar {
+  width: 0%;
+}
+#table1::-webkit-scrollbar {
+  width: 0%;
+}
+#root::-webkit-scrollbar {
+  width: 0%;
+}
+
+.Form{
+  width: 50%;
+  /* background: linear-gradient(to right,  #808080 0%,#e6e6e6 100%);   */
+  /* height: 100vh; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.select{
+  width: 70%;
+  left: 50%;
+  /* top: 10%; */
+  transform: translate(-50%, 0%);
+  position: relative;
+}
+.Totalprice{
+  color: red;
+}
+#submit{
+  width: 100%;
+}
+#customer{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: linear-gradient(-20deg, #2b5876d1 0%, #4e4376 100%); */
+}
+h1{
+  text-align: center;
+  padding: 1.9%;
+  padding-top: 14%;
+  color: white;
+}
+.font {
+  font-size: 11px !important;
+}
+.selectinput {
+width: 85% !important;
+}
+#table{
+  /* display: none; */
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  background-color: rgba(0,0,0,0.3);
+}
+#table1{
+  /* display: none; */
+  z-index: 1;
+  height: 83vh;
+  overflow: scroll;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+#table1 table{
+  height: 18vh;
+}
+
+  .table th,.table td{
+    padding: .45rem;
+  }
+  .table td{
+    color: white;
+  }
+
+#fixed{
+  position:fixed;
+  /* overflow: scroll; */
+  width: 100%;
+  height: 19vh;
+  top:82%;
+  background: black;
+  color: white;
+}
+i{
+  font-size: 20px;
+  padding-left: 15px;
+}
+.addicon{
+  font-size: 20px;
+  padding: 1px;
+  color: black;
+}
+.addicon2{
+  font-size: 15px;
+  padding: 1px;
+  color: black;
+}
+
+#searchTr{
+  padding: 10px;
+}
+#addbtn{
+  position: fixed;
+    text-align: center;
+    top: 82%;
+    right: 4%;
+    border-radius: 70px;
+}
+#mainDiv {
+  height: 100vh;
+  /* background: linear-gradient(to right,  #808080 0%,#e6e6e6 100%);   */
+
+}
+.black td{
+  color: black;
+}
+#mainDiv div{
+  height: 15vh;
+    width: 50%;
+    position: relative;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -17%);
+}
+@media only screen and (max-width: 800px){
+  #customer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Form{
+    width: 100%;
+    /* background: linear-gradient(to right,  #808080 0%,#e6e6e6 100%);   */
+    height: 100vh;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    z-index: 0;
+    }
+    .select{
+      width: 70%;
+      left: 50%;
+      top: 10%;
+      transform: translate(-50%, -50%);
+      position: relative;
+    }
+    .select1{
+      font-size: 14px;
+    }
+    #table1 table{
+      font-size: 13px;
+    }
+    #printDiv table{
+      font-size: 13px;
+    }
+    #table1 table th{
+      font-size: .8em;
+      padding: .3rem;
+    }
+    #printDiv table th{
+      font-size: .8em;
+      padding: .3rem;
+    }
+    #table1 table button{
+      font-size: 11px;
+    }
+    #totaldiv{
+      font-size: 1.5em;
+    }
+}
+.btn-circle.btn-xl {
+  width: 57px;
+  height: 57px;
+  padding: 18px 16px;
+  border-radius: 35px;
+  /* font-size: 24px; */
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.classestd{
+  padding-bottom: 0% !important;
+  height: 5px
+}
+h3 , h5 {
+  text-align: center;
+  color: white
+}
+
+.btn-circle2.btn-xl2 {
+  width: 57px;
+  height: 57px;
+  padding: 18px 16px;
+  border-radius: 35px;
+  /* font-size: 24px; */
+  line-height: 1.33;
+}
+
+.btn-circle2 {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+#addbtn2{
+  position: fixed;
+    text-align: center;
+    top: 7%;
+    left: 2%;
+    border-radius: 70px;
+}
+.icon{
+  font-size: 13px;
+}
+#signupForm{
+  margin: 33px;
+}
+
+
+.badge-notification {
+  position: relative;
+  margin-right: 10px;
+}
+.badge-notification[data-badge]::after {
+  content: attr(data-badge);
+	position: absolute;
+	top: -11px;
+	right: -10px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 22px;
+	height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  font-weight: 600;
+	border-radius: 50%;
+  background: var(--danger);
+  color: #fff;
+}
+span.badge-notification {
+  margin-right: 24px;
+}
+span.badge-notification[data-badge]::after {
+  top: -11px;
+  right: -24px;
+}
+
+#showPAss {
+  float: right;
+    margin-left: -41px;
+    margin-top: -31px;
+    position: relative;
+    z-index: 2;
+    margin-right: 15px;
+    font-size: 16px;
+}

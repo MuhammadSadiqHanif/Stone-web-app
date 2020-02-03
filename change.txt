@@ -1,0 +1,9 @@
+1. clear shop nam whe pree back on add entrie
+2. rempove close clear function and add a buttoin on dialoge for save
+3. on add entrie delete print button afetr submit
+4. new dialoge on view entry print 
+5. dont sumbir whebn there is no entriw 
+6. disbale when ther is no shop on selete box
+7. stone to description
+8. Prograssive web app
+
